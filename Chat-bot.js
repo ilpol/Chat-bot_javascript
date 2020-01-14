@@ -66,7 +66,7 @@
               sendMessage(messageText);                 
 
               if(messageText!="/start" && Start_it==0){
-              	sendMessage('Введите команду /start, для начала общения');
+              	sendMessage('Введите команду /start для начала общения');
               }
  
               else  if(messageText=="/start"){
@@ -99,7 +99,7 @@
 
               }
               else if((messageText).match(/name:/)){
-                    reply = "Привет " + messageText.substring(6) + ", приятно познакомиться. Я умею считать, введи числа которые надо посчитать"
+                    reply = "Привет, " + messageText.substring(6) + ", приятно познакомиться. Я умею считать, введи числа, которые надо посчитать."
                     sendMessage(reply);
 
               }
@@ -115,12 +115,12 @@
                             messageText.length
                           ));
 
-                    sendMessage("Ввдедите одну из операций: -,+,*,/");
+                    sendMessage("Ввдедите одно из действий: -,+,*,/");
 
               }    
 
               else if(messageText=="/stop"){
-                  sendMessage('Всего доброго, если хочешь поговорить пиши /start');
+                  sendMessage('Всего доброго, если хочешь поговорить, пиши /start');
                   Start_it=0;
               }
 
