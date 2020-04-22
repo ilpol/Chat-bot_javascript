@@ -1,4 +1,4 @@
-# Chat-bot on javascript
+# Chat-bot on javascript 
 ![](https://github.com/ilpol/Chat-bot_javascript/blob/master/chat-bot2.gif)
 Чтобы чат-бот мог показывать погоду необходимо зарегистрироваться на https://home.openweathermap.org/users/sign_up , найти в настройках ключ и вставить его в файл Chat-bot.js на 81 строке. <br/>
 
